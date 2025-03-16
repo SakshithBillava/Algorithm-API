@@ -24,107 +24,44 @@ Algorithm-API
 │   mvnw.cmd
 │   pom.xml
 │
-├───.idea
-│       .gitignore
-│       compiler.xml
-│       encodings.xml
-│       jarRepositories.xml
-│       misc.xml
-│       uiDesigner.xml
-│       vcs.xml
-│       workspace.xml
-│
 ├───.mvn
 │   └───wrapper
 │           maven-wrapper.jar
 │           maven-wrapper.properties
 │
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───com
-│   │   │       └───example
-│   │   │           └───algorithmapi
-│   │   │               │   AlgorithmAPIApplication.java
-│   │   │               │
-│   │   │               ├───config
-│   │   │               ├───controller
-│   │   │               │       AlgorithmController.java
-│   │   │               │
-│   │   │               ├───model
-│   │   │               │       LogEntry.java
-│   │   │               │
-│   │   │               ├───repository
-│   │   │               │       LogRepository.java
-│   │   │               │
-│   │   │               └───service
-│   │   │                       AlgorithmService.java
-│   │   │
-│   │   └───resources
-│   │       │   application.properties
-│   │       │
-│   │       ├───static
-│   │       └───templates
-│   └───test
-│       └───java
-│           └───com
-│               └───example
-│                   └───algorithmapi
-│                           AlgorithmAPIApplicationTests.java
-│
-└───target
-    │   Algorithm-API-0.0.1-SNAPSHOT.jar
-    │   Algorithm-API-0.0.1-SNAPSHOT.jar.original
-    │
-    ├───classes
-    │   │   application.properties
-    │   │
-    │   └───com
-    │       └───example
-    │           └───algorithmapi
-    │               │   AlgorithmAPIApplication.class
-    │               │
-    │               ├───controller
-    │               │       AlgorithmController.class
-    │               │
-    │               ├───model
-    │               │       LogEntry.class
-    │               │
-    │               ├───repository
-    │               │       LogRepository.class
-    │               │
-    │               └───service
-    │                       AlgorithmService.class
-    │
-    ├───generated-sources
-    │   └───annotations
-    ├───generated-test-sources
-    │   └───test-annotations
-    ├───maven-archiver
-    │       pom.properties
-    │
-    ├───maven-status
-    │   └───maven-compiler-plugin
-    │       ├───compile
-    │       │   └───default-compile
-    │       │           createdFiles.lst
-    │       │           inputFiles.lst
-    │       │
-    │       └───testCompile
-    │           └───default-testCompile
-    │                   createdFiles.lst
-    │                   inputFiles.lst
-    │
-    ├───surefire-reports
-    │       2025-03-17T00-53-21_310.dumpstream
-    │       com.example.algorithmapi.AlgorithmAPIApplicationTests.txt
-    │       TEST-com.example.algorithmapi.AlgorithmAPIApplicationTests.xml
-    │
-    └───test-classes
-        └───com
-            └───example
-                └───algorithmapi
-                        AlgorithmAPIApplicationTests.class
+└───src
+   ├───main
+   │   ├───java
+   │   │   └───com
+   │   │       └───example
+   │   │           └───algorithmapi
+   │   │               │   AlgorithmAPIApplication.java
+   │   │               │
+   │   │               ├───config
+   │   │               ├───controller
+   │   │               │       AlgorithmController.java
+   │   │               │
+   │   │               ├───model
+   │   │               │       LogEntry.java
+   │   │               │
+   │   │               ├───repository
+   │   │               │       LogRepository.java
+   │   │               │
+   │   │               └───service
+   │   │                       AlgorithmService.java
+   │   │
+   │   └───resources
+   │       └───application.properties
+   │       
+   │       
+   │       
+   └───test
+       └───java
+           └───com
+               └───example
+                   └───algorithmapi
+                           AlgorithmAPIApplicationTests.java
+
 ```
 
 ## 🛠️ Setup and Running Instructions
