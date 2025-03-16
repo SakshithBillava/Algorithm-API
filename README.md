@@ -154,7 +154,9 @@ cd Algorithm-API
   ```
 Example: 
 ```bash
-curl -X POST "http://localhost:8080/binary-search?target=5" -H "Content-Type: application/json" -d '{"array":[1,2,3,4,5,6,7], "target":5}'
+curl -X POST http://localhost:8080/binary-search?target=5 \
+-H "Content-Type: application/json" \
+-d '[1, 2, 3, 4, 5, 6, 7]'
 ```
 Response:
 ```jason
@@ -169,7 +171,9 @@ Response:
   ```
 Example: 
 ```bash
-curl -X POST "http://localhost:8080/quicksort" -H "Content-Type: application/json" -d '{"array":[5,3,8,6,2,7]}'
+curl -X POST http://localhost:8080/quick-sort \
+-H "Content-Type: application/json" \
+-d '[5, 3, 8, 6, 2, 7]'
 ```
 Response:
 ```jason
@@ -182,21 +186,31 @@ Response:
   ```jason
   {
   "A": ["B", "C"],
-  "B": ["D"],
-  "C": ["E"],
+  "B": ["D", "E"],
+  "C": ["F"],
   "D": [],
-  "E": []
+  "E": ["F"],
+  "F": []
   }
   ```
 Example: 
 ```bash
-curl -X POST "http://localhost:8080/bfs?start=A" -H "Content-Type: application/json" -d '{"A":["B","C"],"B":["D"],"C":["E"],"D":[],"E":[]}'
+curl -X POST http://localhost:8080/bfs?start=A \
+-H "Content-Type: application/json" \
+-d '{
+  "A": ["B", "C"],
+  "B": ["D", "E"],
+  "C": ["F"],
+  "D": [],
+  "E": ["F"],
+  "F": []
+}'
 ```
 Response:
 ```jason
-["A", "B", "C", "D", "E"]
+["A", "B", "C", "D", "E","F"]
 ```
 
 ## ✅ Future Improvements
-Add more algorithms (like DFS, Merge Sort, etc.)
-Improve performance and edge case handling
+- Add more algorithms (like DFS, Merge Sort, etc.)
+- Improve performance and edge case handling
