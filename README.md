@@ -214,3 +214,7 @@ Response:
 ## ✅ Future Improvements
 - Add more algorithms (like DFS, Merge Sort, etc.)
 - Improve performance and edge case handling
+
+## License
+This project is licensed under the [MIT License](./LICENSE).
+
