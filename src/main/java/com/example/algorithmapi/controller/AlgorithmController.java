@@ -19,10 +19,6 @@ public class AlgorithmController {
         this.service = service;
     }
 
-    /*@PostMapping("/binary-search")
-    public int binarySearch(@RequestBody int[] input, @RequestParam int target) {
-        return service.binarySearch(input, target);
-    }*/
     @PostMapping("/binary-search")
     public ResponseEntity<?> binarySearch(@RequestBody int[] input, @RequestParam int target) {
         try {
@@ -38,10 +34,6 @@ public class AlgorithmController {
         return service.quickSort(input);
     }
 
-    /*@PostMapping("/bfs")
-    public List<String> bfs(@RequestBody Map<String, List<String>> graph, @RequestParam String start) {
-        return service.bfs(graph, start);
-    }*/
     @PostMapping("/bfs")
     public ResponseEntity<?> bfs(@RequestBody Map<String, List<String>> graph, @RequestParam String start) {
         try {
