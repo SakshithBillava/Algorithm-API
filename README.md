@@ -1,6 +1,6 @@
 # Algorithm-API
 
-This is a Spring Boot-based API that provides implementations for common algorithms such as graph traversal (BFS), sorting (Quicksort), and searching (Binary Search).
+This Spring Boot-based API provides RESTful endpoints to showcase common algorithm implementations, offering developers a simple and efficient way to interact with well-known algorithms. The API includes implementations of fundamental algorithms used in computer science and software engineering, such as Graph Traversal (BFS), Sorting (QuickSort), and Searching (Binary Search). These algorithms are essential for solving various computational problems and are widely used in software development
 
 ## 🚀 Features
 - **Graph Traversal:** BFS (Breadth-First Search) for traversing graph data.
@@ -8,6 +8,11 @@ This is a Spring Boot-based API that provides implementations for common algorit
 - **Searching:** Binary Search for efficient element lookup.
 - Handles invalid input gracefully with meaningful error messages.
 - Built using Spring Boot framework to create a RESTful API.
+
+## Technologies Used:
+- Spring Boot: A powerful framework for building Java-based RESTful web services quickly and with minimal configuration.
+- Java: The primary programming language for implementing the algorithms and API.
+- Maven: Dependency management and build automation.
 
 ## 📂 Project Structure
 ```
