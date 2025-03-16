@@ -143,7 +143,8 @@ cd Algorithm-API
 ./mvnw spring-boot:run
 ```
 
-  Endpoints and Usage
+
+## Endpoints and Usage
  
 1. 🔍 Binary Search
 - Endpoint: POST /api/binary-search
@@ -196,6 +197,6 @@ Response:
 ["A", "B", "C", "D", "E"]
 ```
 
-✅ Future Improvements
+## ✅ Future Improvements
 Add more algorithms (like DFS, Merge Sort, etc.)
 Improve performance and edge case handling
